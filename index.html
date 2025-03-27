@@ -43,7 +43,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Catalogo Libri</a>
+                <a class="nav-link" href="./index.html">Catalogo Libri</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Anagrafica Utenti</a>
@@ -73,25 +73,22 @@
     <section class=" container ">
     <div class="row">
      <div class="col-lg-8 col-sm-12 col-md-12">
-        <div class="row justify-content-between mt-4 mb-4">
-        <h3 class="col">Catalogo Libri</h3>
-        <button
-          type="button"
-          class="col-2 btn btn-xs btn-sm btn-md btn-lg btn-primary  "
-        
-        >
-          Aggiungi Libro
-        </button>
+        <div class=" d-flex justify-content-between align-items-start mt-4 mb-4">
+        <h3 class="">Catalogo Libri</h3>
+        <form action="./new-book.html">
+          
+          <input class=" btn btn-xs btn-sm btn-md btn-lg btn-primary  " type="submit" value="Aggiungi Libro" />
+      </form>
       </div>
       <div>
         <table class="table table-striped">
             <thead>
               <tr>
                 
-                <th class="col-6" scope="col">Titolo</th>
-                <th class="col-2 d-none d-sm-table-cell " scope="col">Data prestito</th>
-                <th class="col-2 " scope="col">Stato</th>
-                <th class="col-2 text-center" scope="col">Azioni</th>
+                <th class="col w-40" scope="col">Titolo</th>
+                <th class="col d-none d-sm-table-cell " scope="col">Data prestito</th>
+                <th class="col " scope="col">Stato</th>
+                <th class="col text-center" scope="col">Azioni</th>
               </tr>
             </thead>
             <tbody>
